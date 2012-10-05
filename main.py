@@ -61,7 +61,6 @@ class MainFrame(wx.Frame):
 		panel.SetSizer(vbox)
 
 	def sendTask(self, event):
-		print "a"
 		#toaddr = 'df.rodriguez143@gmail.com'
 		toaddr = 'task@producteev.com'
 		subject = self.txtTask.GetValue()
@@ -89,7 +88,7 @@ class MainFrame(wx.Frame):
 	# ==============================================================================================
 
 	def initMailer(self):
-		self.mailer = Mailer('df.rodriguez143@gmail.com', 'Staticroof601020763800!')
+		self.mailer = Mailer('YOUR_MAIL', 'YOUR_PASSWORD')
 
 	# ==============================================================================================
 	# ====================================== HOTKEYS
