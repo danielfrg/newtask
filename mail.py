@@ -1,6 +1,6 @@
 import smtplib
-from email.MIMEText import MIMEText
-from email.MIMEMultipart import MIMEMultipart
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
 from datetime import datetime
 
 class Mailer():
@@ -23,10 +23,3 @@ class Mailer():
 		server.login(self.username, self.password)
 		server.sendmail(self.username, toaddr, msg.as_string())
 		server.quit()
-
-if __name__ == "__main__":
-	mailer = Mailer('df.rodriguez143@gmail.com', 'Staticroof601020763800!')
-	toaddr = 'df.rodriguez143@gmail.com'
-	subject = 'Task!'
-	msg = 'There was a terrible error that occured and I wanted you to know!'
-	mailer.sendMail(toaddr, subject, msg)

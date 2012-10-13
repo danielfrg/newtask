@@ -2,93 +2,105 @@ import os
 import wx
 import win32con
 from mail import Mailer
+from settings import SettingsForm
+from settings import Settings
 
 class MainFrame(wx.Frame):
 	def __init__(self):
 		super(MainFrame, self).__init__(None, title="New Task",
 			style= wx.SYSTEM_MENU | wx.CAPTION | wx.MINIMIZE_BOX | wx.CLOSE_BOX)
 
-		self.initUI()
-		self.SetSizeWH(400, 100)
-		self.Centre()
-		self.Show(True)
-		wx.EVT_CLOSE(self, self.onClose) # triggered when the app is closed
+		self.file = 'settings.cfg'
+		self.settings = Settings(self.file)
+		self.mailer = Mailer(self.settings.getEmail(), self.settings.getPassword())
 
-		icon = wx.Icon("checkmark.ico", wx.BITMAP_TYPE_ICO)
+		# Icon
+		icon = wx.Icon("images/task.ico", wx.BITMAP_TYPE_ICO)
 		self.SetIcon(icon)
 
 		#
-		self.initMailer()
-		self.registerHotkey()
-		self.registerMinimizeToTray()
+		self.createControls()
+		self.bindEvents()
+		self.doLayout()
+		self.SetSizeWH(400, 100)
+		self.Centre()
+		self.Show(True)
 
 
 	# ==============================================================================================
 	# ====================================== UI
 	# ==============================================================================================
 
-	def initUI(self):
-		panel = wx.Panel(self)
+	def createControls(self):
+		self.panel = wx.Panel(self)
+		self.txtTask = wx.TextCtrl(self.panel, 0, 'New Task', style=wx.TE_PROCESS_ENTER)
 
+		bmp = wx.Bitmap("images/settings.png", wx.BITMAP_TYPE_ANY)
+		self.btnSettings = wx.BitmapButton(self.panel, id=wx.ID_ANY, bitmap=bmp, size=(bmp.GetWidth()+10, bmp.GetHeight()+10))
+
+		self.lblDummy = wx.StaticText(self.panel, size=(170, 300))
+		self.btnCancel = wx.Button(self.panel, label='Cancel [esc]', size=(90, 26))
+		self.btnSend = wx.Button(self.panel, label='Send [enter]', size=(90, 26))
+
+	def doLayout(self):
 		vbox = wx.BoxSizer(wx.VERTICAL)
 
-		hbox1 = wx.BoxSizer(wx.HORIZONTAL)
-		self.txtTask = wx.TextCtrl(panel, -1, 'New Task', style=wx.TE_PROCESS_ENTER)
-		self.txtTask.Bind(wx.EVT_KEY_UP, self.OnKeyUP)
-		self.txtTask.Bind(wx.EVT_TEXT_ENTER, self.sendTask)
+		# Line 1
 		vbox.Add(self.txtTask, flag=wx.EXPAND|wx.LEFT|wx.RIGHT|wx.TOP, border=10)
 
-		#
-
+		# Line 2
 		hbox2 = wx.BoxSizer(wx.HORIZONTAL)
-		bmp = wx.Bitmap("settings.png", wx.BITMAP_TYPE_ANY)
-		#btnSettings = wx.BitmapButton(panel, id=wx.ID_ANY, bitmap=bmp, size=(bmp.GetWidth()+10, bmp.GetHeight()+10))
-		#distros = ['Ubuntu', 'Arch', 'Fedora', 'Debian', 'Mint']
-		#cbServices = wx.ComboBox(panel, size=(170, 300), choices=distros, style=wx.CB_READONLY)
-		lblDummy = wx.StaticText(panel, size=(196, 300))
-		btnCancel = wx.Button(panel, label='Cancel [esc]', size=(90, 26))
-		btnCancel.Bind(wx.EVT_BUTTON, self.cancelTask)
-		btnSend = wx.Button(panel, label='Send [enter]', size=(90, 26))
-		btnSend.Bind(wx.EVT_BUTTON, self.sendTask)
-
-		#hbox2.Add(btnSettings)
-		#hbox2.Add(cbServices, flag=wx.EXPAND)
-		hbox2.Add(lblDummy)
-		hbox2.Add(btnCancel)
-		hbox2.Add(btnSend)
+		hbox2.Add(self.btnSettings)
+		hbox2.Add(self.lblDummy)
+		hbox2.Add(self.btnCancel)
+		hbox2.Add(self.btnSend)
 		vbox.Add(hbox2, flag=wx.LEFT|wx.RIGHT|wx.TOP, border=10)
 
-		panel.SetSizer(vbox)
+		# Main
+		self.panel.SetSizer(vbox)
 
-	def sendTask(self, event):
+	# ==============================================================================================
+	# ====================================== EVENTS
+	# ==============================================================================================
+
+	def bindEvents(self):
+		self.txtTask.Bind(wx.EVT_KEY_UP, self.OnKeyUP)
+		self.txtTask.Bind(wx.EVT_TEXT_ENTER, self.onSend)
+
+		self.btnSettings.Bind(wx.EVT_BUTTON, self.onOpenSettings)
+		self.btnSend.Bind(wx.EVT_BUTTON, self.onSend)
+		self.btnCancel.Bind(wx.EVT_BUTTON, self.onCancel)
+
+		wx.EVT_CLOSE(self, self.onClose) # triggered when the app is closed
+
+		self.registerHotkey()
+		self.registerMinimizeToTray()
+
+	def onSend(self, event):
 		#toaddr = 'df.rodriguez143@gmail.com'
-		toaddr = 'task@producteev.com'
+		toaddr = self.settings.getEmailTo()
 		subject = self.txtTask.GetValue()
 
 		self.onMinimize(None)
 		self.txtTask.SetValue("")
 
-		self.mailer.sendMail(toaddr, subject, '') # Send at the end to close faster the window
+		self.mailer.sendMail(toaddr, subject, "") # Send at the end to close faster the window
 
-	def cancelTask(self, event):
+	def onCancel(self, event):
 		self.txtTask.SetValue("")
 		self.onMinimize(None)
 
-	def OnKeyUP(self, event):
-		keyCode = event.GetKeyCode()
-		if keyCode == wx.WXK_ESCAPE:
-				self.ToggleShow(None)
+	def onOpenSettings(self, event):
+		frame = SettingsForm(self, self.file)
 
 	def onClose(self, event):
 		self.tbIcon.RemoveIcon() # remove the systemtray icon when the program closes
 		os._exit(1)
 
-	# ==============================================================================================
-	# ====================================== MAILER
-	# ==============================================================================================
-
-	def initMailer(self):
-		self.mailer = Mailer('YOUR_MAIL', 'YOUR_PASSWORD')
+	def OnKeyUP(self, event):
+		keyCode = event.GetKeyCode()
+		if keyCode == wx.WXK_ESCAPE:
+				self.ToggleShow(None)
 
 	# ==============================================================================================
 	# ====================================== HOTKEYS
@@ -112,7 +124,7 @@ class MainFrame(wx.Frame):
 
 	def registerMinimizeToTray(self):
 		self.tbIcon = wx.TaskBarIcon()
-		icon = wx.Icon("checkmark.ico", wx.BITMAP_TYPE_ICO)
+		icon = wx.Icon("images/task.ico", wx.BITMAP_TYPE_ICO)
 		self.tbIcon.SetIcon(icon, "Tasks")
 
 		wx.EVT_TASKBAR_LEFT_DCLICK(self.tbIcon, self.ToggleShow) # left click
@@ -131,9 +143,8 @@ class MainFrame(wx.Frame):
 			self.Show()
 			self.Restore() # take it out of the taskbar (otherwise it'll be shown but still minimized, which is awkward)
 
-
-
 if __name__ == "__main__":
 	app = wx.App(False)
 	frame = MainFrame()
 	app.MainLoop()
+
