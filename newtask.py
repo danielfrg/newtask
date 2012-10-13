@@ -12,7 +12,6 @@ class MainFrame(wx.Frame):
 
 		self.file = 'settings.cfg'
 		self.settings = Settings(self.file)
-		self.mailer = Mailer(self.settings.getEmail(), self.settings.getPassword())
 
 		# Icon
 		icon = wx.Icon("images/task.ico", wx.BITMAP_TYPE_ICO)
@@ -77,7 +76,7 @@ class MainFrame(wx.Frame):
 		self.registerMinimizeToTray()
 
 	def onSend(self, event):
-		#toaddr = 'df.rodriguez143@gmail.com'
+		self.mailer = Mailer(self.settings.getEmail(), self.settings.getPassword())
 		toaddr = self.settings.getEmailTo()
 		subject = self.txtTask.GetValue()
 

@@ -14,7 +14,7 @@ class SettingsForm(wx.Frame):
 		self.doLayout()
 
 		self.CenterOnParent()
-		#self.GetParent().Enable(False)
+		self.GetParent().Enable(False)
 		self.Show(True)
 		self.Raise()
 
@@ -87,15 +87,15 @@ class SettingsForm(wx.Frame):
 		self.settings.setEmail(self.txtEmail.GetValue())
 		self.settings.setPassword(self.txtPassword.GetValue())
 		self.settings.setEmailTo(self.txtEmailTo.GetValue())
-		#self.GetParent().Enable(True)
+		self.GetParent().Enable(True)
 		self.Destroy()
 
 	def onCancel(self, event):
-		#self.GetParent().Enable(True)
+		self.GetParent().Enable(True)
 		self.Destroy()
 
 	def onClose(self, event):
-		#self.GetParent().Enable(True)
+		self.GetParent().Enable(True)
 		self.Destroy()
 
 
@@ -120,8 +120,9 @@ class Settings(object):
 			with open(file, 'wb') as configfile:
 				self.config.write(configfile)
 
-
 	def getEmail(self):
+		self.config = SafeConfigParser()
+		self.config.read(self.file)
 		return self.config.get('General', 'email')
 
 	def setEmail(self, email):
@@ -130,6 +131,8 @@ class Settings(object):
 				self.config.write(configfile)
 
 	def getPassword(self):
+		self.config = SafeConfigParser()
+		self.config.read(self.file)
 		return self.config.get('General', 'password')
 
 	def setPassword(self, password):
@@ -138,6 +141,8 @@ class Settings(object):
 				self.config.write(configfile)
 
 	def getEmailTo(self):
+		self.config = SafeConfigParser()
+		self.config.read(self.file)
 		return self.config.get('General', 'emailto')
 
 	def setEmailTo(self, emailto):
