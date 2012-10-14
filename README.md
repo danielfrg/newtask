@@ -5,9 +5,9 @@ Desktop python app to create new tasks on major task management web apps.
 
 __Objective__: Use GTD (task management) apps the correct way
 
-__Problem__: The usual way to create tasks is: type app url, hit enter, wait for the app to load, press hotkey to create task (if have it), type task, hit enter. That takes to long and it is distractive, GTD says task collection needs to be fast as possible.
+__Problem__: The usual way to create tasks is: ```type app url -> hit enter -> wait for the app to load -> press hotkey to create task (if have it) -> type task -> hit enter```. That takes to long and it is distractive, GTD says task collection needs to be fast as possible without distracting you from your current task.
 
-__So;ution / What this app does__: A desktop app that use email (gmail) to create tasks quickly on your favorite task management web app such as: [Nirvana](https://nirvanahq.com), [Producteev](https://producteev.com), [Asana](https://asana.com), [Do](https://Do.com), [Wunderlist](https://wunderlist.com), [Doit](https://doit.im), [Orchestra](https://orchestra.com), and many others that support task creation via email.
+__Solution / What this app does__: A _very simple_ desktop app that use email (gmail) to create tasks quickly on your favorite task management web app such as: [Nirvana](https://nirvanahq.com), [Producteev](https://producteev.com), [Asana](https://asana.com), [Do](https://Do.com), [Wunderlist](https://wunderlist.com), [Doit](https://doit.im), [Orchestra](https://orchestra.com), and many others that support task creation via email.
 
 Features
 --------
