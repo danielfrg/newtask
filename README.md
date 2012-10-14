@@ -5,16 +5,18 @@ Desktop python app to create new tasks on major task management web apps.
 
 __Objective__: Use GTD (task management) apps the correct way
 
-Use email (gmail) to send tasks to your favorite task management web app such as: [Nirvana](https://nirvanahq.com), [Asana](https://asana.com), [Do](https://Do.com), [Wunderlist](https://wunderlist.com), [Doit](https://doit.im), and many others that support task creation via email.
+__Problem__: The usual way to create tasks is: type app url, hit enter, wait for the app to load, press hotkey to create task (if have it), type task, hit enter. That takes to long and it is distractive, GTD says task collection needs to be fast as possible.
+
+__So;ution / What this app does__: A desktop app that use email (gmail) to create tasks quickly on your favorite task management web app such as: [Nirvana](https://nirvanahq.com), [Producteev](https://producteev.com), [Asana](https://asana.com), [Do](https://Do.com), [Wunderlist](https://wunderlist.com), [Doit](https://doit.im), [Orchestra](https://orchestra.com), and many others that support task creation via email.
 
 Features
 --------
 
-- Very simple and clean UI and functionality.
-- Customizable settings.
-- Hotkey (WIN+DEL) to summon the application.
-- Hides on the notification area.
-- AES encryption for the password.
+- Very simple and clean UI and functionality
+- Customizable settings
+- Hotkey (WIN+DEL) to summon the application
+- Hides on the notification area
+- AES encryption for the password
 
 Executables
 -----------
@@ -29,10 +31,10 @@ How to use it
 2. Execute the app:
 	- On windows double click ```newtask.exe```
 	- On other OS run from the terminal: ```python newtask.py```
-3. Click the settings (gear icon) and fill the options: ```your_email(at)gmail.com```, ```your_gmail_password``` and ```new_task@your_favorite_app.com```.
-4. Write a new task and press enter to send an email, the app will automaticly go to the notification area.
-5. Use the hotkey to summon the app again.
-6. Be productive.
+3. Click the settings (gear icon) and fill the options: ```your_email(at)gmail.com```, ```your_gmail_password``` and ```new_task@your_favorite_app.com```
+4. Write a new task and press enter to send an email, the app will automaticly go to the notification area
+5. Use the hotkey to summon the app again and create more tasks
+6. Be productive
 
 Required Libraries
 ------------------
