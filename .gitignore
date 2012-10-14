@@ -29,3 +29,5 @@ pip-log.txt
 # Other
 test.py
 settings.cfg
+newtask.sublime-project
+newtask.sublime-workspace

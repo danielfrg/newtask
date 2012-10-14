@@ -1,6 +1,8 @@
 import wx
 import os
 from ConfigParser import SafeConfigParser
+from Crypto.Cipher import AES
+import binascii
 
 class SettingsForm(wx.Frame):
 
@@ -25,10 +27,11 @@ class SettingsForm(wx.Frame):
 	def createControls(self):
 		self.panel = wx.Panel(self)
 
-		self.lblEmail = wx.StaticText(self.panel, label="Email:", size = (55, 22))
+		self.lblEmail = wx.StaticText(self.panel, label="Email (gmail):", size = (55, 22))
 		self.txtEmail = wx.TextCtrl(self.panel, value=self.settings.getEmail(), size = (200, 22))
 		self.lblPassword = wx.StaticText(self.panel, label="Password:", size = (55, 22))
 		self.txtPassword = wx.TextCtrl(self.panel, value=self.settings.getPassword(), style = wx.TE_PASSWORD, size = (200, 22))
+		#self.txtPassword = wx.TextCtrl(self.panel, value=self.settings.getPassword(), size = (200, 22))
 		self.lblEmailTo = wx.StaticText(self.panel, label="Send to:", size = (55, 22))
 		self.txtEmailTo = wx.TextCtrl(self.panel, value=self.settings.getEmailTo(), size = (200, 22))
 		self.btnSave = wx.Button(self.panel, label="Save", size = (100, 26))
@@ -106,6 +109,8 @@ class SettingsForm(wx.Frame):
 class Settings(object):
 	def __init__(self, file):
 		self.file = file
+		self.key = 'adnghtusylehfngkerthfndlotkjfhtu'
+		self.iv = '78e22430750291ea'
 		if os.path.exists(file):
 			self.config = SafeConfigParser()
 			self.config.read(file)
@@ -133,10 +138,17 @@ class Settings(object):
 	def getPassword(self):
 		self.config = SafeConfigParser()
 		self.config.read(self.file)
-		return self.config.get('General', 'password')
+		encrypted = self.config.get('General', 'password')
+
+		decipher = AES.new(self.key, AES.MODE_CFB, self.iv)
+		decrypted = decipher.decrypt(encrypted.decode("hex"))
+		return decrypted
 
 	def setPassword(self, password):
-		self.config.set('General', 'password', password)
+		cipher = AES.new(self.key, AES.MODE_CFB, self.iv)
+		encrypted = cipher.encrypt(password).encode("hex")
+
+		self.config.set('General', 'password', encrypted)
 		with open(self.file, 'wb') as configfile:
 				self.config.write(configfile)
 
@@ -151,7 +163,11 @@ class Settings(object):
 				self.config.write(configfile)
 
 if __name__ == '__main__':
-	app = wx.PySimpleApp()
-	frame = SettingsForm(None, 'settings.cfg')
-	app.MainLoop()
-	#s = Settings('settings.cfg')
+	#app = wx.PySimpleApp()
+	#frame = SettingsForm(None, 'settings.cfg')
+	#app.MainLoop()
+
+	s = Settings('settings.cfg')
+	print s.getPassword()
+	s.setPassword("Hola")
+	print s.getPassword()
