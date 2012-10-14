@@ -27,7 +27,7 @@ class SettingsForm(wx.Frame):
 	def createControls(self):
 		self.panel = wx.Panel(self)
 
-		self.lblEmail = wx.StaticText(self.panel, label="Email (gmail):", size = (55, 22))
+		self.lblEmail = wx.StaticText(self.panel, label="Email:", size = (55, 22))
 		self.txtEmail = wx.TextCtrl(self.panel, value=self.settings.getEmail(), size = (200, 22))
 		self.lblPassword = wx.StaticText(self.panel, label="Password:", size = (55, 22))
 		self.txtPassword = wx.TextCtrl(self.panel, value=self.settings.getPassword(), style = wx.TE_PASSWORD, size = (200, 22))
@@ -120,7 +120,7 @@ class Settings(object):
 			self.config.add_section('General')
 			self.setEmail("i.e. df.rodriguez143@gmail.com")
 			self.setPassword("***")
-			self.setEmailTo("i.e. c04cdcccd@nirvanahq.in")
+			self.setEmailTo("i.e. task@your_favorite_app.com")
 
 			with open(file, 'wb') as configfile:
 				self.config.write(configfile)
