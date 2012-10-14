@@ -45,6 +45,7 @@ Screenshots
 -----------
 
 Main interface
+
 ![Main interface](http://4.bp.blogspot.com/-CiU0gq1CJA4/UHo4PSsdp-I/AAAAAAAAA_U/5NEHhXBmFCc/s1600/2012-10-13_22h57_27.png)
 
 Settings dialog
