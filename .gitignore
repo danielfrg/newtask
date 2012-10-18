@@ -8,3 +8,4 @@ build
 settings.cfg
 newtask.sublime-workspace
 newtask.sublime-project
+test.py
