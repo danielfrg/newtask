@@ -139,6 +139,7 @@ class MainFrame(wx.Frame):
             self.Hide()
         else:
             self.Show()
+            self.txtTask.SetFocus()
             self.Restore()  # take it out of the taskbar (otherwise it'll be shown but still minimized, which is awkward)
 
 if __name__ == "__main__":
