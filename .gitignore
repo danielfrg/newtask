@@ -36,3 +36,5 @@ nosetests.xml
 
 # Other
 settings.cfg
+newtask.sublime-workspace
+newtask.sublime-project
