@@ -1,4 +1,4 @@
-New Task TEST
+New Task
 ========
 
 Desktop python app to create new tasks on major task management web apps.
