@@ -1,0 +1,1031 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"set",
+				"setPassword"
+			],
+			[
+				"enc",
+				"encrypt"
+			],
+			[
+				"h",
+				"h"
+			],
+			[
+				"txtE",
+				"txtEmailTo"
+			],
+			[
+				"txt",
+				"txtEmail"
+			],
+			[
+				"setin",
+				"settings"
+			],
+			[
+				"to",
+				"toaddrs"
+			],
+			[
+				"nav",
+				"navbar-inner"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 334,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/User/SublimeLinter.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 20,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "newtask.py",
+			"settings":
+			{
+				"buffer_size": 5527,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "mail.py",
+			"settings":
+			{
+				"buffer_size": 784,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "settings.py",
+			"settings":
+			{
+				"buffer_size": 6206,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"selected_items":
+		[
+			[
+				"git  push",
+				"Git: Push"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"convert",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"indenta",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"conver",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"inden",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"set pyt",
+				"Set Syntax: Python"
+			],
+			[
+				"set py",
+				"Set Syntax: Python"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reinden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"lorem",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"prefe",
+				"Preferences: Browse Packages"
+			],
+			[
+				"conve",
+				"Indentation: Convert to Tabs"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/SublimeLinter/README.md",
+		"/C/Users/Daniel/Documents/projects/newtask/newtask.sublime-project",
+		"/C/Users/Daniel/Documents/projects/newtask/newtask.py",
+		"/C/Users/Daniel/Documents/projects/newtask/test.py",
+		"/C/Users/Daniel/Documents/projects/newtask/settings.py",
+		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/Python/Python.sublime-build",
+		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/Default/exec.py",
+		"/C/Users/Daniel/Documents/projects/newtask/README.md",
+		"/C/Users/Daniel/Documents/python/newtask/settings.py",
+		"/C/Users/Daniel/Documents/python/newtask/.gitignore",
+		"/C/Users/Daniel/Documents/python/newtask/newtask.sublime-project",
+		"/C/Users/Daniel/Documents/python/newtask/settings.cfg",
+		"/C/Users/Daniel/Documents/python/test.py",
+		"/C/Users/Daniel/Documents/python/newtask/setup.py",
+		"/C/Users/Daniel/Documents/python/newtask/dist/settings.cfg",
+		"/C/Users/Daniel/Documents/python/newtask/newtask.py",
+		"/C/Users/Daniel/Documents/python/newtask/mail.py",
+		"/C/Users/Daniel/Documents/python/newtask/test.py",
+		"/C/Users/Daniel/Documents/python/newtask/settings",
+		"/C/Users/Daniel/Downloads/software/MATLAB R2012b/MATLAB R2012b crack/readme.txt",
+		"/C/Users/Daniel/Downloads/readme.txt",
+		"/C/Users/Daniel/Downloads/ver.txt",
+		"/C/Users/Daniel/Documents/R/getmonitor-testoutput1.txt",
+		"/C/Users/Daniel/Documents/R/specdata/001.csv",
+		"/C/Users/Daniel/Documents/python/newtask/main.py",
+		"/C/Users/Daniel/Desktop/test.R",
+		"/C/Users/Daniel/Dropbox/Documents/UTD/Bussiness Intelligence/Project 2/report.txt",
+		"/C/Users/Daniel/Documents/python/newtask/.git/config",
+		"/C/cygwin/home/Daniel/.ssh/id_rsa.pub",
+		"/C/Users/Daniel/Documents/python/NewTask/main.py",
+		"/C/Users/Daniel/Documents/python/NewTask/mail.py",
+		"/C/Users/Daniel/Documents/python/emailer/test.py",
+		"/C/Users/Daniel/Documents/python/emailer/mail.py",
+		"/C/Users/Daniel/Documents/python/emailer/main.py",
+		"/C/Users/Daniel/Downloads/README.txt",
+		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Daniel/Desktop/samples/StyleEditor/STCStyleEditor.py",
+		"/C/Users/Daniel/Documents/python/emailer/2.py",
+		"/C/cygwin/home/Daniel/.bashrc",
+		"/C/cygwin/home/Daniel/.inputrc",
+		"/C/cygwin/home/Daniel/.bash_profile",
+		"/C/cygwin/home/Daniel/.profile",
+		"/C/Users/Daniel/Documents/python/alisases.txt",
+		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/R Tools/R.sublime-build",
+		"/C/Users/Daniel/Desktop/a.R",
+		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/Ruby/Ruby.sublime-build",
+		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/User/SublimeREPL.sublime-settings",
+		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/SublimeREPL/config/Matlab/Default.sublime-commands",
+		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/SublimeREPL/config/Matlab/Main.sublime-menu",
+		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/SublimeREPL/Main.sublime-menu",
+		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/SublimeREPL/Default (Windows).sublime-keymap",
+		"/C/Users/Daniel/Documents/R/test.R",
+		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/User/Matlab.sublime-build",
+		"/C/Users/Daniel/Desktop/a.matlab",
+		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Daniel/Documents/python/.bashrc",
+		"/C/Users/Daniel/Documents/python/.bash_profile",
+		"/C/Users/Daniel/Downloads/setuptools-0.6c11/setup.py",
+		"/C/user.js",
+		"/C/Users/Daniel/Dropbox/Documents/UTD/Bussiness Intelligence/P1/association (2).csv",
+		"/C/Users/Daniel/Dropbox/Documents/UTD/Bussiness Intelligence/P1/association.csv",
+		"/C/cygwin/home/Daniel/projects/django/mysite/mysite/urls.py",
+		"/C/cygwin/home/Daniel/projects/django/daniel/main/views.py",
+		"/C/cygwin/home/Daniel/projects/django/daniel/urls.py",
+		"/C/Users/Daniel/Downloads/basic.ics",
+		"/C/cygwin/home/Daniel/projects/django/daniel/main/urls.py",
+		"/C/cygwin/home/Daniel/projects/django/daniel/main/models.py",
+		"/C/cygwin/home/Daniel/projects/django/mysite/main/urls.py",
+		"/C/cygwin/home/Daniel/projects/django/daniel/settings.py",
+		"/C/cygwin/home/Daniel/projects/django/daniel/wsgi.py",
+		"/C/cygwin/home/Daniel/projects/django/daniel/__init__.py",
+		"/C/cygwin/home/Daniel/projects/django/daniel/manage.py",
+		"/C/cygwin/home/Daniel/projects/django/mysite/static/css/index.styl",
+		"/C/cygwin/home/Daniel/projects/django/mysite/apps/media/templates/media/index.jade",
+		"/C/cygwin/home/Daniel/projects/django/mysite/static/css/blog.styl",
+		"/C/cygwin/home/Daniel/projects/django/mysite/apps/blog/templates/blog/index.jade",
+		"/C/cygwin/home/Daniel/projects/django/daniel/templates/index.html",
+		"/C/cygwin/home/Daniel/projects/django/mysite/static/css/media.styl",
+		"/C/cygwin/home/Daniel/projects/django/mysite/manage.py",
+		"/C/cygwin/home/Daniel/projects/django/mysite/main/templates/index.jade",
+		"/C/cygwin/home/Daniel/projects/django/mysite/main/templates/navbar.jade",
+		"/C/cygwin/home/Daniel/projects/django/mysite/static/css/media.css",
+		"/C/cygwin/home/Daniel/projects/django/mysite/mysite/settings.py",
+		"/C/cygwin/home/Daniel/projects/django/mysite/apps/media/urls.py",
+		"/C/cygwin/home/Daniel/projects/django/mysite/apps/media/views.py",
+		"/C/cygwin/home/Daniel/projects/django/mysite/apps/blog/views.py",
+		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/User/SublimeOnSaveBuild.sublime-settings",
+		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/SublimeOnSaveBuild/SublimeOnSaveBuild.sublime-settings",
+		"/C/cygwin/home/Daniel/projects/django/mysite/main/views.py",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/cygwin/home/Daniel/projects/django/mysite/static/css/royalslider-default.css",
+		"/C/cygwin/home/Daniel/projects/django/mysite/static/css/royalslider.css",
+		"/C/cygwin/home/Daniel/projects/django/mysite/static/js/jquery.royalslider.min.js",
+		"/C/cygwin/home/Daniel/projects/django/mysite/apps/blog/urls.py",
+		"/C/cygwin/home/Daniel/projects/django/mysite/apps/blog/templates/blog/index.html",
+		"/C/cygwin/home/Daniel/projects/django/mysite/static/css/blog.less",
+		"/C/cygwin/home/Daniel/projects/django/mysite/apps/blog/templates/blog/index-blog.jade",
+		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/User/Jade.sublime-build",
+		"/C/cygwin/home/Daniel/projects/django/mysite/apps/blog/templates/blog/index-blog.html",
+		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/Jade/Jade.sublime-build",
+		"/C/cygwin/home/Daniel/projects/django/mysite/static/css/blog.css",
+		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/Stylus/Stylus.sublime-build",
+		"/C/Users/Daniel/Downloads/blog.less",
+		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/Stylus/Stylus.tmLanguage",
+		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/C/cygwin/home/Daniel/projects/django/mysite/apps/blog/templates/blog/post.html",
+		"/C/cygwin/home/Daniel/projects/ip.py",
+		"/C/Users/Daniel/Dropbox/Public/ip.py",
+		"/C/cygwin/home/Daniel/projects/django/mysite/apps/blog/models.py",
+		"/C/cygwin/home/Daniel/projects/django/mysite/apps/blog/admin.py",
+		"/C/cygwin/home/Daniel/projects/django/mysite/static/js/textarea_tinymce.js",
+		"/C/cygwin/home/Daniel/projects/django/mysite/static/js/textarea.js",
+		"/C/cygwin/home/Daniel/projects/django/mysite/static/js/bootstrap.min.js",
+		"/C/cygwin/home/Daniel/projects/django/mysite/static/js/jquery.min.js",
+		"/C/cygwin/home/Daniel/projects/django/mysite/static/js/jquery.js",
+		"/C/cygwin/home/Daniel/projects/django/mysite/mysite/admin.py",
+		"/C/cygwin/home/Daniel/projects/django/mysite/main/templates/index.html",
+		"/C/cygwin/home/Daniel/projects/django/mysite/static/css/index.less",
+		"/C/cygwin/home/Daniel/projects/django/mysite/templates/main/index.html",
+		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/LiveReload/LiveReload.sublime-settings",
+		"/C/cygwin/home/Daniel/projects/django/mysite/templates/main/index.css",
+		"/C/Users/Daniel/Downloads/less-1.3.0.min.js",
+		"/C/cygwin/home/Daniel/projects/mysite/mysite/settings.py",
+		"/C/cygwin/home/Daniel/dot_bash_aliases",
+		"/C/cygwin/home/Daniel/dot_profile"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			" = (",
+			" = ",
+			"if os.name == \"nt\":",
+			"Dialog",
+			"btnSend",
+			"OnKeyUP",
+			"size(",
+			"size",
+			"Form",
+			".ico",
+			"png",
+			".ico",
+			"ico",
+			"btn1",
+			"btn2",
+			"st",
+			"hbox1",
+			"hbox",
+			"mailer",
+			")\n",
+			"tbIcon",
+			"alias",
+			"user",
+			"log",
+			"login",
+			"doc",
+			"docu",
+			"admin",
+			"atemplates",
+			"template",
+			"conver",
+			"convert_tabs",
+			"inden"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 334,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14,
+								14
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/User/SublimeLinter.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 20,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18,
+								18
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "newtask.py",
+					"settings":
+					{
+						"buffer_size": 5527,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								229,
+								229
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "mail.py",
+					"settings":
+					{
+						"buffer_size": 784,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								146,
+								146
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "settings.py",
+					"settings":
+					{
+						"buffer_size": 6206,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6127,
+								6127
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3095.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 124.0
+	},
+	"output.git":
+	{
+		"height": 130.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 169.0,
+	"status_bar_visible": true
+}

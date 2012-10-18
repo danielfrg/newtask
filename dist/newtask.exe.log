@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "newtask.py", line 86, in onSend
+  File "mail.pyo", line 23, in sendMail
+  File "smtplib.pyo", line 613, in login
+smtplib.SMTPAuthenticationError: (535, '5.7.1 Username and Password not accepted. Learn more at\n5.7.1 http://support.google.com/mail/bin/answer.py?answer=14257 t1sm2184133oee.7')
