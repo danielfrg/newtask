@@ -6,6 +6,5 @@ build
 
 # Mr Developer
 settings.cfg
-newtask.sublime-workspace
-newtask.sublime-project
+*.sublime*
 test.py
