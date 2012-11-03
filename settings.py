@@ -158,11 +158,11 @@ class Settings(object):
                 self.config.write(configfile)
 
 if __name__ == '__main__':
-    #app = wx.PySimpleApp()
-    #frame = SettingsForm(None, 'settings.cfg')
-    #app.MainLoop()
+    app = wx.PySimpleApp()
+    frame = SettingsForm(None, 'settings.cfg')
+    app.MainLoop()
 
-    s = Settings('settings.cfg')
-    print s.getPassword()
-    s.setPassword("Hola")
-    print s.getPassword()
+    #s = Settings('settings.cfg')
+    #print s.getPassword()
+    #s.setPassword("Hola")
+    #print s.getPassword()

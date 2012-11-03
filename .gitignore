@@ -1,3 +1,4 @@
+#Python
 *.py[cod]
 
 # Packages
@@ -6,5 +7,4 @@ build
 
 # Mr Developer
 settings.cfg
-*.sublime*
 test.py
