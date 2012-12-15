@@ -50,8 +50,8 @@ Screenshots
 
 Main interface
 
-![Main interface](http://4.bp.blogspot.com/-CiU0gq1CJA4/UHo4PSsdp-I/AAAAAAAAA_U/5NEHhXBmFCc/s1600/2012-10-13_22h57_27.png)
+![Main interface](http://ctrl68.files.wordpress.com/2012/10/2012-10-13_23h20_48.png)
 
 Settings dialog
 
-![Settings dialog](http://2.bp.blogspot.com/-IbtR43ufPPo/UHo9tIwYMGI/AAAAAAAAA_w/_UH250scHw0/s1600/2012-10-13_23h20_48.png)
+![Settings dialog](http://ctrl68.files.wordpress.com/2012/10/2012-10-13_22h57_271.png)
